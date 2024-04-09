@@ -5,7 +5,7 @@ library(caret)
 #importing data set
 
 set.seed(73)
-setwd("C:/Users/danie/Documents/data projects/Bank Churn Rate")
+setwd("C:/Users/danie/Documents/data projects/Bank Churn Rate/Test and Submission Data")
 bank_churn <- read_excel("train.xlsx")
 #turning gender, geography, has credit card, is active member and exited to categorical variables
 bank_churn$Gender <- factor(bank_churn$Gender)
